@@ -181,6 +181,7 @@ Arguments:
 Returns:
 > The Humanoid instance
 ]]--
+```
 
 #### Root
 This function returns the HumanoidRootPart of the player specified (or LocalPlayer).
@@ -195,6 +196,7 @@ Arguments:
 Returns:
 > The HumanoidRootPart instance
 ]]--
+```
 
 #### Root
 This function returns the HumanoidRootPart of the player specified (or LocalPlayer).
