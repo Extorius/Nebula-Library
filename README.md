@@ -22,13 +22,15 @@ This is because of the functions used by Nebula, and the general nature of the p
 
 Nebula **WILL** however work with the following environments;
 
-- `Synapse X 2`
-- `Synapse x 3`
-- `Script-Ware 2`
-- `Krnl 2015`
-- `Fluxus 7.2`
-- `Oxygen U 2`
-- `Comet 3 GameKit` - unsure about this one
+- `Synapse X v2.0`
+- `Synapse X v3.0`
+- `Script-Ware Windows v2.0`
+- `Script-Ware Mac v2.3`
+- `Krnl Beta`
+- `Krnl Legacy`
+- `Fluxus v7.2`
+- `Oxygen U v2`
+- `Comet v3 GameKit` - unsure about this one
 
 ## Booting
 
