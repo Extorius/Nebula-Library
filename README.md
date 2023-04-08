@@ -10,7 +10,7 @@ By using Nebula, you can focus on building great projects instead of writing eas
 
 Nebula requires a LuaU Handicapped environment - more commonly known as a executor environment ([Synapse X](https://x.synapse.to), [Script-Ware](https://script-ware.com/), [Krnl](https://krnl.place/), [etc](https://whatexploitsare.online/))
 
-This is because of the functions used by Nebula, and the general nature of the program. This means Nebula will **not** work in the following environments;
+This is because of the functions used by Nebula, and the general nature of the program. This means Nebula will **NOT** work in the following environments;
 
 - `Lua 5.1` (5.1.5)
 - `Lua 5.2` (5.2.4)
@@ -20,7 +20,7 @@ This is because of the functions used by Nebula, and the general nature of the p
 - `Lua JIT` (2.0.5 & 2.1.0)
 - `Etc`
 
-Nebula will however work with the following environments;
+Nebula **WILL** however work with the following environments;
 
 - `Synapse X 2`
 - `Synapse x 3`
