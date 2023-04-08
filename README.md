@@ -29,8 +29,9 @@ Nebula **WILL** however work with the following environments;
 - `Krnl Beta`
 - `Krnl Legacy`
 - `Fluxus v7.2`
-- `Oxygen U v2`
+- `Oxygen U v2.0`
 - `Comet v3 GameKit` - unsure about this one
+- `WeAreDevs API v6.4`
 
 ## Booting
 
