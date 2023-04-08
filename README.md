@@ -28,7 +28,7 @@ Nebula **WILL** however work with the following environments;
 - `Krnl 2015`
 - `Fluxus 7.2`
 - `Oxygen U 2`
-- `Comet` - unsure about this one
+- `Comet 3 GameKit` - unsure about this one
 
 ## Booting
 
