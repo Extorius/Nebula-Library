@@ -83,7 +83,9 @@ Nebula.Version -- The current version of Nebula
 ```
 
 ## Functions
-### Non-Character
+### Core Lua Functions
+These are functions that don't rely on Roblox specific utilities
+
 #### Print
 This is a testing function, don't use it lol
 ```lua
@@ -162,7 +164,7 @@ Returns:
 
 ####
 
-### Character
+### Roblox-Related Functions
 #### Character
 This function returns the Character model of the player specified (or LocalPlayer).
 ```lua
