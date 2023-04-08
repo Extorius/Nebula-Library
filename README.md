@@ -26,8 +26,8 @@ Nebula **WILL** however work with the following environments;
 - `Synapse x 3`
 - `Script-Ware 2`
 - `Krnl 2015`
-- `Fluxus v7.2`
-- `Oxygen U`
+- `Fluxus 7.2`
+- `Oxygen U 2`
 - `Comet` - unsure about this one
 
 ## Booting
