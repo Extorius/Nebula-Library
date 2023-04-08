@@ -12,13 +12,23 @@ Nebula requires a LuaU Handicapped environment - more commonly known as a execut
 
 This is because of the functions used by Nebula, and the general nature of the program. This means Nebula will **not** work in the following environments;
 
-- Lua 5.1 (5.1.5)
-- Lua 5.2 (5.2.4)
-- Lua 5.3 (5.3.6)
-- Lua 5.4 (5.4.4)
-- Luau (0.533)
-- Lua JIT (2.0.5 & 2.1.0)
-- Etc
+- `Lua 5.1` (5.1.5)
+- `Lua 5.2` (5.2.4)
+- `Lua 5.3` (5.3.6)
+- `Lua 5.4` (5.4.4)
+- `Luau` (0.533)
+- `Lua JIT` (2.0.5 & 2.1.0)
+- `Etc`
+
+Nebula will however work with the following environments;
+
+- `Synapse X 2`
+- `Synapse x 3`
+- `Script-Ware 2`
+- `Krnl 2015`
+- `Fluxus 5`
+- `Oxygen U`
+- `Comet` - unsure about this one
 
 ## Booting
 
