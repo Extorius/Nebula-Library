@@ -1,4 +1,8 @@
-if not Nebula and Nebula.Version then
+local success, response = pcall(function()
+    print(Nebula.Version)	
+end)
+
+if not success then
 	Nebula =
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
 			["Developer-Mode"] = true,
