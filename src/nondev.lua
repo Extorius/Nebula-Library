@@ -1,4 +1,4 @@
-if not Nebula then
+if not Nebula and Nebula.Version then
 	Nebula =
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
 			["Developer-Mode"] = true,
