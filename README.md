@@ -39,7 +39,7 @@ To boot Nebula, all you have to do is call a loadstring with a few passed parame
 ```lua
 local Nebula = loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
 	["Developer-Mode"] = true, -- set this to false and Nebula will automatically load in a universal script
-  ["Auto-Optimize"] = true, -- a really basic optimization system that replaces commonly known deprecated functions with their new counterparts, nothing fancy
+  	["Auto-Optimize"] = true, -- a really basic optimization system that replaces commonly known deprecated functions with their new counterparts, nothing fancy
 	["Anti-Cheat"] = {
 		["Spoof"] = {
 			["Position"] = false,
