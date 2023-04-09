@@ -637,7 +637,7 @@ Returns:
 ### Built In
 #### Disconnect
 ```lua
-DisconnectEvent:Connect(print) -- will print the disconnect reason for every disconnect
+DisconnectEvent:Connect(print) -- will print the disconnect reason for every player disconnect / kick
 ```
 
 ## Loops
