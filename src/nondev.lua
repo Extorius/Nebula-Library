@@ -1,5 +1,5 @@
 local success, response = pcall(function()
-    print(Nebula.Version)	
+    print(Nebula.F:Character().Name)
 end)
 
 if not success then
