@@ -1,3 +1,27 @@
+if not Nebula then
+	Nebula =
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
+			["Developer-Mode"] = true,
+			["Anti-Cheat"] = {
+				["Spoof"] = {
+					["Position"] = false,
+					["CFrame"] = false,
+					["WalkSpeed"] = true,
+					["JumpPower"] = true,
+					["Gravity"] = true,
+				},
+				["Disable-Connections"] = {
+					["DescendantAdded"] = true,
+					["ChildAdded"] = true,
+					["ChildRemoved"] = true,
+					["DescendantRemoving"] = true,
+					["WalkSpeed"] = true,
+					["JumpPower"] = true,
+				},
+			},
+		})
+end
+
 local defaults = {
 	WalkSpeed = Nebula.F:Humanoid().WalkSpeed,
 	JumpPower = Nebula.F:Humanoid().JumpPower,
