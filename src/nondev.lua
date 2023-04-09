@@ -221,7 +221,7 @@ local Keybind = Tab:CreateKeybind({
 	HoldToInteract = false,
 	Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Keybind)
-		AimbotLoop:toggle()
+		AimbotLoop:Toggle()
 	end,
 })
 local Toggle = Tab:CreateToggle({
@@ -229,7 +229,7 @@ local Toggle = Tab:CreateToggle({
 	CurrentValue = false,
 	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Value)
-		FOVLoop:toggle()
+		FOVLoop:Toggle()
 	end,
 })
 
@@ -317,7 +317,7 @@ local Toggle = Tab:CreateToggle({
 	CurrentValue = false,
 	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Value)
-		ESPLoop:toggle()
+		ESPLoop:Toggle()
 	end,
 })
 local Toggle = Tab:CreateToggle({
@@ -415,7 +415,7 @@ local Toggle = Tab:CreateToggle({
 	CurrentValue = false,
 	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Value)
-		UpdateLoop:toggle()
+		UpdateLoop:Toggle()
 	end,
 })
 
@@ -434,7 +434,7 @@ local Toggle = Tab:CreateToggle({
 	CurrentValue = false,
 	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Value)
-		NoclipLoop:toggle()
+		NoclipLoop:Toggle()
 	end,
 })
 local Toggle = Tab:CreateToggle({
@@ -442,7 +442,7 @@ local Toggle = Tab:CreateToggle({
 	CurrentValue = false,
 	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(Value)
-		BhopLoop:toggle()
+		BhopLoop:Toggle()
 	end,
 })
 
