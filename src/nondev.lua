@@ -1,8 +1,4 @@
-local success, response = pcall(function()
-    print(Nebula.F:Character().Name)
-end)
-
-if not success then
+if not getgenv().Nebula then
 	Nebula =
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
 			["Developer-Mode"] = true,
