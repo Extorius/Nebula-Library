@@ -31,7 +31,6 @@ Nebula **WILL** however work with the following environments;
 - `Fluxus v7.2`
 - `Oxygen U v2.0`
 - `Comet v3 GameKit` - not sure
-- `WeAreDevs API v6` - not sure
 
 ## Booting
 
