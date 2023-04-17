@@ -16,7 +16,7 @@ This is because of the functions used by Nebula, and the general nature of the p
 - `Lua 5.2` (5.2.4)
 - `Lua 5.3` (5.3.6)
 - `Lua 5.4` (5.4.4)
-- `Luau` (0.533)
+- `LuaU / RLua` (0.533)
 - `Lua JIT` (2.0.5 & 2.1.0)
 - `Etc`
 
