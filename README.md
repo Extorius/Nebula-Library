@@ -474,7 +474,7 @@ Arguments:
 > None
 
 Returns:
-> Nothing
+> A random player
 ]]--
 ```
 
