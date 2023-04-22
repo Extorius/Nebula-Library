@@ -78,7 +78,7 @@ Nebula.UserInput -- UserInput service
 ### Misc
 ```lua
 Nebula.LocalPlayer -- The LocalPlayer
-Nebula.HWID -- The HWID assigned to the user
+Nebula.HWID -- The HWID assigned to the user (REMOVED, WILL THROW ERROR)
 Nebula.Camera -- Workspace's CurrentCamera
 Nebula.Mouse -- LocalPlayer's Mouse
 Nebula.Version -- The current version of Nebula
