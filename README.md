@@ -36,45 +36,26 @@ Nebula **WILL** however work with the following environments;
 
 To boot Nebula, all you have to do is call a loadstring with a few passed parameters;
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
-    [1] = {
-        ["Developer-Mode"] = true, -- set this to false and Nebula will automatically load in a universal script
-        ["Auto-Optimize"] = true, -- a really basic optimization system that replaces commonly known deprecated functions with their new counterparts, nothing fancy
-        ["Silent-Load"] = true, -- removes nebula's prints before, during, and after loading
-        ["Secure-Environment"] = true, -- will use some basic antihooks and sanity checks outside of protecting http related functions to make your script a bit more secure
-        ["VPN-Reroute"] = { -- CURRENTLY JUST HAS ANTI HTTPY SPY, NO REROUTING
-            ["Enabled"] = true, -- keep this to true if you intend to use Execution-Logs
-            ["Security-Level"] = "max" -- low, medium, or max. low will only use encryption and will be fastest, medium will use sanity checks which can result in false positives due to vpns and certain timezones, and max will use antihooks, sanity checks, and encryption (slower, will trigger most whitelisting services, and will have some false positives)
-        },
-        ["Anti-Cheat"] = {
-            ["Enabled"] = true,
-            ["Spoof"] = {
-                ["Position"] = false,
-                ["CFrame"] = false,
-                ["WalkSpeed"] = true,
-                ["JumpPower"] = true,
-                ["Gravity"] = true
-            },
-            ["Disable-Connections"] = {
-                ["DescendantAdded"] = true,
-                ["ChildAdded"] = true,
-                ["ChildRemoved"] = true,
-                ["DescendantRemoving"] = true,
-                ["WalkSpeed"] = true,
-                ["JumpPower"] = true
-            }
-        },
-        ["Execution-Logs"] = { -- (CURRENTLY UNAVAILABLE) a far more secure alternative to traditonal logging (sending the webhook directly from the client) that reroutes all the information (after being encrypted) to a backend server with ratelimiting that decrypts all of it and makes the request
-            ["Enabled"] = true,
-            ["Webhook"] = "",
-            ["Log"] = {
-                ["Username"] = true,
-                ["HWID"] = true,
-                ["GameId"] = true,
-                ["JoinScript"] = true
-            }
-        }
-    }
+local Nebula = loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
+	["Developer-Mode"] = true, -- set this to false and Nebula will automatically load in a universal script
+  	["Auto-Optimize"] = true, -- a really basic optimization system that replaces commonly known deprecated functions with their new counterparts, nothing fancy
+	["Anti-Cheat"] = {
+		["Spoof"] = { -- this spoofs values to always show as their original value
+			["Position"] = false,
+			["CFrame"] = false,
+			["WalkSpeed"] = true,
+			["JumpPower"] = true,
+			["Gravity"] = true,
+		},
+		["Disable-Connections"] = {
+			["DescendantAdded"] = true,
+			["ChildAdded"] = true,
+			["ChildRemoved"] = true,
+			["DescendantRemoving"] = true,
+			["WalkSpeed"] = true,
+			["JumpPower"] = true,
+		},
+	},
 })
 ```
 
