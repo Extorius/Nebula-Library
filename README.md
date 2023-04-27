@@ -36,7 +36,7 @@ Nebula **WILL** however work with the following environments;
 
 To boot Nebula, all you have to do is call a loadstring with a few passed parameters;
 ```lua
-local Arguments = {...} or {
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Extorius/Nebula-Library/main/src/library.lua"))({
     [1] = {
         ["Developer-Mode"] = true, -- set this to false and Nebula will automatically load in a universal script
         ["Auto-Optimize"] = true, -- a really basic optimization system that replaces commonly known deprecated functions with their new counterparts, nothing fancy
@@ -75,7 +75,7 @@ local Arguments = {...} or {
             }
         }
     }
-}
+})
 ```
 
 ## Variables
